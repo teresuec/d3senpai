@@ -23,7 +23,6 @@ function createsvg() {
     .attr("height", height);
 
   var path = "M " + width / 2 + " " + height / 2 + " L " + width + " " + height + " H " + 0 + " Z";
-  console.log(path);
 
   var body = svg.append('path')
     .attr("d", path);
